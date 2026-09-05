@@ -1,0 +1,25 @@
+# Compilación (dentro de sitio/)
+sitio/target/
+sitio/test-output/
+*.class
+
+# IDE
+.vscode/
+*.iml
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Archivos sensibles (credenciales, configs locales)
+.env
+config.local.properties
+sitio/src/test/resources/data/login_campus.csv
+
+
+# Herramientas internas / extensiones (no forman parte del proyecto)
+.claude/
+.github/modernize/
