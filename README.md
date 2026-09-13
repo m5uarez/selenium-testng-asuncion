@@ -10,14 +10,18 @@ Framework de automatización de pruebas end-to-end para el sitio institucional [
 - **ExtentReports 5.1.2** — reportes HTML visuales con capturas de pantalla
 - **Patrón Page Object Model (POM)**
 
+
 ## 📁 Estructura del proyecto
+
+```text
 sitio/src
 ├── main/java/com/asuncion/
-│ ├── core/ → BasePage (métodos base de Selenium: esperas, click, scroll, etc.)
-│ └── pages/ → Page Objects (una clase por página del sitio)
+│   ├── core/          -> BasePage (métodos base de Selenium: esperas, click, scroll, etc.)
+│   └── pages/         -> Page Objects (una clase por página del sitio)
 └── test/java/com/asuncion/
-├── steps/ → Clases de test (TestNG) + BaseTest
-└── utils/ → Reportes (ExtentReports) y lectura de datos (CSV)
+    ├── steps/         -> Clases de test (TestNG) + BaseTest
+    └── utils/         -> Reportes (ExtentReports) y lectura de datos (CSV)
+```
 
 
 ## ✅ Cobertura de pruebas
